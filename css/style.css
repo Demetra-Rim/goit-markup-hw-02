@@ -9,7 +9,7 @@ body {
     
 }
 .header-navigetion-logo {
-    font-family: "Raleway-Bold",sans-serif;
+    font-family: "Raleway-Bold", sans-serif;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.54px;
@@ -22,23 +22,29 @@ body {
 .header-navigetion-logo-iris {
     color: #4D5AE5;
 }
-.header-navigetion-list-item {
+.header-navigetion-list a {
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
-    letter-spacing: 0.32px;
+    letter-spacing: 2%;
     line-height: 1.5;
     color: #2E2F42;
 }
-.header-address-list {
+.header-navigetion-list a:hover {
+    color: #404BBF;
+}
+.header-address-list a {
     list-style-type: none;
   
+}
+.header-address-list a:hover {
+    color: #404BBF;
 }
 .header-address-list-item {
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
-    letter-spacing: 0.32px;
+    letter-spacing: 2%;
     line-height: 1.5;
     text-decoration: none;
     color: #434455;
@@ -53,7 +59,7 @@ body {
     line-height: 1.07;
     color: #ffff;
     font-weight: 700;
-    letter-spacing: 1.12px;
+    letter-spacing: 2%;
 }
 .section-order-button {
     font-size: 16px;
@@ -62,6 +68,10 @@ body {
     font-weight: 500;
     letter-spacing: 0.64px;
     background-color: #4D5AE5;
+    cursor: pointer;
+}
+.section-order-button:hover {
+    background-color: #404BBF;
 }
 .features-list {
     list-style-type: none;
